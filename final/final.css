@@ -1,0 +1,173 @@
+.custom-navbar {
+    background: #023047;
+    background: linear-gradient(#023047, #076594);
+}
+.navbar-brand {
+    color: #fb8500;
+    font-weight: bold;
+   font-family: Verdana, sans-serif;
+  font-size: 30px;
+  font-stretch: extra-expanded;  
+  
+}
+
+.navbar-brand:hover {
+    color: aliceblue;
+    font-stretch: ultra-expanded;
+}
+
+nav div li {
+    color: #ffb703;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+#cover-pizza {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 90%; /* Ensure the image doesn't exceed its original size */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 2%;
+}
+
+
+
+.card-body-overlay {
+    height: 78%;
+    background: rgba(255,255,255,0.13);
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left: 30%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    
+       
+    z-index: 999;
+}
+
+.card-body label {
+     font-family: 'Poppins',sans-serif;
+    color: #023047;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    
+}
+
+.col-8 img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 0.50rem; /* Optional: Add border radius to the image */
+}
+
+.btn-primary {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+     background-color: #ffb703;
+    border: solid 1px transparent;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+.form-group label,input {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    display: block;
+}
+.social{
+    margin-top: 30px;
+    display: flex;
+  }
+  .social div{
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(140, 119, 119, 0.27);
+    color: #023047;
+    text-align: center;
+    cursor: pointer;
+  }
+  .social div:hover{
+    background-color: rgba(255,255,255,0.47);
+  }
+  .social .fb{
+    margin-left: 25px;
+  }
+ 
+#fourartickles{
+    margin-top: 9%;
+    justify-content: center;
+}
+
+  .col-3 {
+    --border-radius: 0.75rem;
+  --primary-color: #7257fa;
+  --secondary-color: #3c3852;
+  width: 320px;
+  height: 480px;
+  font-family: "Arial";
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  background: #f1f1f3;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+  position: relative;
+  margin: 0.9rem;
+  }
+  .card_title {
+    margin: 0.5rem;
+  }
+
+.col-6 {
+    background: #f1faee;
+    border-radius: 10%;
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+  h5 {
+    font-family: Arial Narrow, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+     transition: background-size .7s, background-position .5s ease-in-out;
+    cursor: pointer; 
+    }
+
+    h4 {
+        font-family: 'Serif';
+    }
+
+     h5:hover {
+        background-size: 100% 100%;
+        background-position: 0% 100%;
+        transition: background-position .7s, background-size .5s ease-in-out;
+      }
+  
+      .col {
+        background:linear-gradient(to right, #ffb703 , yellow);
+      }
